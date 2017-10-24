@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+## Hacky Bird - Made for Hackference 2017
+**NB: I don't own the cats, dogs or trolls images **
 
-You can use the [editor on GitHub](https://github.com/rosanna20736/HackyBird/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Controls
+- **W/S** Move Blue player Up/down
+- **Up/Down** Move Red player Up/down
+- **P** Pause (kind of - it stops walls being produced
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Blue team simulated text inputs:
+- **4** SLOW
+- **5** FAST
+- **6** FLASH
+- **7** CATS
+- **8** DOGS
+- **9** TROLL
 
-### Markdown
+Red team simulated text inputs:
+- **R** SLOW
+- **T** FAST
+- **Y** FLASH
+- **U** CATS
+- **I** DOGS
+- **O** TROLL
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Description
 
-```markdown
-Syntax highlighted code block
+At Hackference 2017 I made this game with @MohammedAlaboud and Matei Copot.
+At the start of the game, we get everyone to text a number, then send texts back assigning them to the blue or red team and assigning one player of each team as captain. The captains come up to control the players in a simple game and the rest of the team can interfere by texting in key words. Every four seconds the most popular keyword is taken from each team's texts and the relevant action is applied to the game. The keywords are
+- SLOW - slow down your walls
+- FAST - speed up the opposite team's walls
+- FLASH - distract the other team's player
+- CATS/DOGS - change your player's background
+- TROLL - distract your *own* team
 
-# Header 1
-## Header 2
-### Header 3
+This version of the game simulates incoming texts with keypresses so it can be played without the full text setup. The most popular is still taken each 4 seconds. In the text version we use nexmo as a text service.
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rosanna20736/HackyBird/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Full code is here https://github.com/MohammedAlaboud/HackferenceProject (it is as messy as you woulld expect something made in 24 hours to be).
+I had a lot of fun on this and very pleased with how it turned out :)
