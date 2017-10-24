@@ -1,5 +1,5 @@
 ## Hacky Bird - Made for Hackference 2017
-**NB: I don't own the cats, dogs or trolls images **
+### NB: I don't own the cats, dogs or trolls images
 
 ### Controls
 - **W/S** Move Blue player Up/down
