@@ -1,4 +1,5 @@
 ## Hacky Bird - Made for Hackference 2017
+### Play the game at https://rosanna20736.github.io/HackyBird/
 ### NB: I don't own the cats, dogs or trolls images
 
 ### Controls
