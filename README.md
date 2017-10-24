@@ -4,7 +4,7 @@
 ### Controls
 - **W/S** Move Blue player Up/down
 - **Up/Down** Move Red player Up/down
-- **P** Pause (kind of - it stops walls being produced
+- **P** Pause (kind of - it stops walls being produced)
 
 Blue team simulated text inputs:
 - **4** SLOW
